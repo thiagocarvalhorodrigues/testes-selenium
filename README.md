@@ -17,10 +17,10 @@ Detalhes fundamentais.
 Bibliotecas necessárias:
 
 selenium
-pip install selelnium
+<i>pip install selelnium </i><br>
 
-PySimpleGUI
-pip install PySimpleGUI
+PySimpleGUI<br>
+<i>pip install PySimpleGUI </i>
 
 
 
