@@ -20,13 +20,17 @@ Detalhes fundamentais.
 
 ## VAMOS LÁ ##
 
-Bibliotecas necessárias:
+Bibliotecas que necessitam ser instaladas:
 
 selenium<br>
 <i>pip install selelnium </i><br>
 
 PySimpleGUI<br>
 <i>pip install PySimpleGUI </i>
+
+Sistema com logging e exceções.
+
+# Muito Obrigado, pero que gostem. Até mais #
 
 
 
