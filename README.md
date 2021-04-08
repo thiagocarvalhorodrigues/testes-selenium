@@ -21,7 +21,6 @@ Detalhes fundamentais.
 ## VAMOS LÁ ##
 
 - Clone o sistema para a sua máquina utilizando <br>
-
 git clone https://github.com/thiagocarvalhorodrigues/testes-selenium.git
 
 Bibliotecas que necessitam ser instaladas:
