@@ -27,7 +27,7 @@ git clone https://github.com/thiagocarvalhorodrigues/testes-selenium.git
 Bibliotecas que necessitam ser instaladas:
 
 selenium<br>
-<i>pip install selelnium </i><br>
+<i>pip install selenium </i><br>
 
 PySimpleGUI<br>
 <i>pip install PySimpleGUI </i>
