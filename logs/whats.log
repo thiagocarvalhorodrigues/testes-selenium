@@ -1,0 +1,59 @@
+DEBUG 08/04/2021 16:11:29 DEBUG
+DEBUG 08/04/2021 16:11:29 POST http://127.0.0.1:51124/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--silent ", "--log-level=3", "--lang=pt-BR", "--start-maximized", "--window-position=10,10", "--lang=pt-BR"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--silent ", "--log-level=3", "--lang=pt-BR", "--start-maximized", "--window-position=10,10", "--lang=pt-BR"]}}}
+DEBUG 08/04/2021 16:11:29 Starting new HTTP connection (1): 127.0.0.1:51124
+DEBUG 08/04/2021 16:11:30 http://127.0.0.1:51124 "POST /session HTTP/1.1" 200 754
+DEBUG 08/04/2021 16:11:30 Finished Request
+DEBUG 08/04/2021 16:11:43 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/url {"url": "http://automationpractice.com/index.php"}
+DEBUG 08/04/2021 16:11:48 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/url HTTP/1.1" 200 14
+DEBUG 08/04/2021 16:11:48 Finished Request
+DEBUG 08/04/2021 16:11:48 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element {"using": "xpath", "value": "//*[@id=\"search_query_top\"]"}
+DEBUG 08/04/2021 16:11:48 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element HTTP/1.1" 200 88
+DEBUG 08/04/2021 16:11:48 Finished Request
+DEBUG 08/04/2021 16:11:48 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element/87d5e3a0-392a-40c7-ada1-d1d33aa1e42d/value {"text": "Blouse", "value": ["B", "l", "o", "u", "s", "e"], "id": "87d5e3a0-392a-40c7-ada1-d1d33aa1e42d"}
+DEBUG 08/04/2021 16:11:48 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element/87d5e3a0-392a-40c7-ada1-d1d33aa1e42d/value HTTP/1.1" 200 14
+DEBUG 08/04/2021 16:11:48 Finished Request
+DEBUG 08/04/2021 16:11:48 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element {"using": "xpath", "value": "//*[@id=\"searchbox\"]/button"}
+DEBUG 08/04/2021 16:11:48 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element HTTP/1.1" 200 88
+DEBUG 08/04/2021 16:11:48 Finished Request
+DEBUG 08/04/2021 16:11:48 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element/6be151d2-b21d-4ec7-a8d9-747517a0ac90/click {"id": "6be151d2-b21d-4ec7-a8d9-747517a0ac90"}
+DEBUG 08/04/2021 16:11:52 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element/6be151d2-b21d-4ec7-a8d9-747517a0ac90/click HTTP/1.1" 200 14
+DEBUG 08/04/2021 16:11:52 Finished Request
+INFO 08/04/2021 16:11:58  TEST PASS PESQUISAR PRODUTOS EXISTENTES
+DEBUG 08/04/2021 16:11:58 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/url {"url": "http://automationpractice.com/index.php"}
+DEBUG 08/04/2021 16:12:00 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/url HTTP/1.1" 200 14
+DEBUG 08/04/2021 16:12:00 Finished Request
+DEBUG 08/04/2021 16:12:12 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element {"using": "xpath", "value": "//*[@id=\"search_query_top\"]"}
+DEBUG 08/04/2021 16:12:12 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element HTTP/1.1" 200 88
+DEBUG 08/04/2021 16:12:12 Finished Request
+DEBUG 08/04/2021 16:12:12 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element/df6f8a23-a6df-4025-abbd-448a396fcb73/value {"text": "ProdutoN\u00e3oExistente", "value": ["P", "r", "o", "d", "u", "t", "o", "N", "\u00e3", "o", "E", "x", "i", "s", "t", "e", "n", "t", "e"], "id": "df6f8a23-a6df-4025-abbd-448a396fcb73"}
+DEBUG 08/04/2021 16:12:12 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element/df6f8a23-a6df-4025-abbd-448a396fcb73/value HTTP/1.1" 200 14
+DEBUG 08/04/2021 16:12:12 Finished Request
+DEBUG 08/04/2021 16:12:12 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element {"using": "xpath", "value": "//*[@id=\"searchbox\"]/button"}
+DEBUG 08/04/2021 16:12:12 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element HTTP/1.1" 200 88
+DEBUG 08/04/2021 16:12:12 Finished Request
+DEBUG 08/04/2021 16:12:12 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element/17c66278-3996-4b33-a68b-250acd66e12d/click {"id": "17c66278-3996-4b33-a68b-250acd66e12d"}
+DEBUG 08/04/2021 16:12:14 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element/17c66278-3996-4b33-a68b-250acd66e12d/click HTTP/1.1" 200 14
+DEBUG 08/04/2021 16:12:14 Finished Request
+INFO 08/04/2021 16:12:20  TEST PASS PESQUISAR PRODUTOS NÃO EXISTENTES
+DEBUG 08/04/2021 16:12:20 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/url {"url": "http://automationpractice.com/index.php"}
+DEBUG 08/04/2021 16:12:22 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/url HTTP/1.1" 200 14
+DEBUG 08/04/2021 16:12:22 Finished Request
+DEBUG 08/04/2021 16:12:24 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element {"using": "xpath", "value": "//*[@id=\"block_top_menu\"]/ul/li[1]/a"}
+DEBUG 08/04/2021 16:12:24 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element HTTP/1.1" 200 88
+DEBUG 08/04/2021 16:12:24 Finished Request
+DEBUG 08/04/2021 16:12:24 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/actions {"actions": [{"type": "pointer", "parameters": {"pointerType": "mouse"}, "id": "mouse", "actions": [{"type": "pointerMove", "duration": 250, "x": 0, "y": 0, "origin": {"element-6066-11e4-a52e-4f735466cecf": "ae0f8d5e-de67-45c8-a200-bc72cd672476"}}]}, {"type": "key", "id": "key", "actions": [{"type": "pause", "duration": 0}]}]}
+DEBUG 08/04/2021 16:12:25 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/actions HTTP/1.1" 200 14
+DEBUG 08/04/2021 16:12:25 Finished Request
+DEBUG 08/04/2021 16:12:30 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element {"using": "xpath", "value": "//*[@id=\"block_top_menu\"]/ul/li[1]/ul/li[2]/ul/li[3]/a"}
+DEBUG 08/04/2021 16:12:30 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element HTTP/1.1" 200 88
+DEBUG 08/04/2021 16:12:30 Finished Request
+DEBUG 08/04/2021 16:12:30 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/timeouts {"implicit": 30000}
+DEBUG 08/04/2021 16:12:30 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/timeouts HTTP/1.1" 200 14
+DEBUG 08/04/2021 16:12:30 Finished Request
+DEBUG 08/04/2021 16:12:30 POST http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/element/484195a2-6a3c-43d5-b6b7-427b7f57b3ea/click {"id": "484195a2-6a3c-43d5-b6b7-427b7f57b3ea"}
+DEBUG 08/04/2021 16:12:34 http://127.0.0.1:51124 "POST /session/a46223188acc3c822f824f88e5da6214/element/484195a2-6a3c-43d5-b6b7-427b7f57b3ea/click HTTP/1.1" 200 14
+DEBUG 08/04/2021 16:12:34 Finished Request
+INFO 08/04/2021 16:12:37  TEST PASS LISTAR PRODUTOS
+DEBUG 08/04/2021 16:12:37 DELETE http://127.0.0.1:51124/session/a46223188acc3c822f824f88e5da6214/window {}
+DEBUG 08/04/2021 16:12:37 http://127.0.0.1:51124 "DELETE /session/a46223188acc3c822f824f88e5da6214/window HTTP/1.1" 200 12
+DEBUG 08/04/2021 16:12:37 Finished Request
