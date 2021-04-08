@@ -16,7 +16,7 @@ Detalhes fundamentais.
 
 Bibliotecas necessárias:
 
-selenium
+selenium<br>
 <i>pip install selelnium </i><br>
 
 PySimpleGUI<br>
