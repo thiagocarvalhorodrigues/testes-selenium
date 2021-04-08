@@ -14,7 +14,7 @@ Detalhes fundamentais.
 
 ## VAMOS LÁ ##
 
-Bibliotecas nencessárias:
+Bibliotecas necessárias:
 
 selenium
 pip install selelnium
