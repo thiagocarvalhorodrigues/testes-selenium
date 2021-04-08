@@ -1,5 +1,9 @@
 # testes-selenium - REALIZADO PARA A EMPRESA PWX #
-Realizado testes automatizados com SELENIUM
+
+# TESTE COMPLEMENTAR #
+
+Somente realizado o TESTE WEB 
+Realizado testes automatizados com SELENIUM.
 
 TESTE WEB, realizado no site http://automationpractice.com/index.php.
 Realizando buscas de produtos, clicks em botões com a finalidade de testes das tags da árvore DOM e instabilidade do site.
