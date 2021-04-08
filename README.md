@@ -3,7 +3,8 @@
 
 # TESTE COMPLEMENTAR #
 
-Somente realizado o TESTE WEB 
+Somente realizado o TESTE WEB.
+
 Realizado testes automatizados com SELENIUM.
 
 TESTE WEB, realizado no site http://automationpractice.com/index.php.
