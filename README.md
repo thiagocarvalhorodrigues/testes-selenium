@@ -20,7 +20,8 @@ Detalhes fundamentais.
 
 ## VAMOS LÁ ##
 
-- Clone o sistema para a sua máquina utilizando <br>
+- Clone o sistema para a sua máquina utilizando seu prompt de comando ( cmd ) e exceutando o seguinte comando.<br>
+
 git clone https://github.com/thiagocarvalhorodrigues/testes-selenium.git
 
 Bibliotecas que necessitam ser instaladas:
