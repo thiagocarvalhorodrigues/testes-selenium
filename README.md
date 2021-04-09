@@ -34,7 +34,7 @@ PySimpleGUI<br>
 
 Sistema com logging e exceções.
 
-# Muito Obrigado, pero que gostem. Até mais #
+# Muito Obrigado, espero que gostem. Até mais #
 
 
 
